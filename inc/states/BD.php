@@ -1,0 +1,77 @@
+<?php
+/**
+ * Bangladeshi states (districts)
+ *
+ * @author      AutoMobile
+ * @category    inc
+ * @package     automobile/inc
+ * @version     2.0.0
+ */
+global $states;
+
+$states['BD'] = array(
+	'BAG'  => __( 'Bagerhat', 'automobile' ),
+	'BAN'  => __( 'Bandarban', 'automobile' ),
+	'BAR'  => __( 'Barguna', 'automobile' ),
+	'BARI' => __( 'Barisal', 'automobile' ),
+	'BHO'  => __( 'Bhola', 'automobile' ),
+	'BOG'  => __( 'Bogra', 'automobile' ),
+	'BRA'  => __( 'Brahmanbaria', 'automobile' ),
+	'CHA'  => __( 'Chandpur', 'automobile' ),
+	'CHI'  => __( 'Chittagong', 'automobile' ),
+	'CHU'  => __( 'Chuadanga', 'automobile' ),
+	'COM'  => __( 'Comilla', 'automobile' ),
+	'COX'  => __( 'Cox\'s Bazar', 'automobile' ),
+	'DHA'  => __( 'Dhaka', 'automobile' ),
+	'DIN'  => __( 'Dinajpur', 'automobile' ),
+	'FAR'  => __( 'Faridpur ', 'automobile' ),
+	'FEN'  => __( 'Feni', 'automobile' ),
+	'GAI'  => __( 'Gaibandha', 'automobile' ),
+	'GAZI' => __( 'Gazipur', 'automobile' ),
+	'GOP'  => __( 'Gopalganj', 'automobile' ),
+	'HAB'  => __( 'Habiganj', 'automobile' ),
+	'JAM'  => __( 'Jamalpur', 'automobile' ),
+	'JES'  => __( 'Jessore', 'automobile' ),
+	'JHA'  => __( 'Jhalokati', 'automobile' ),
+	'JHE'  => __( 'Jhenaidah', 'automobile' ),
+	'JOY'  => __( 'Joypurhat', 'automobile' ),
+	'KHA'  => __( 'Khagrachhari', 'automobile' ),
+	'KHU'  => __( 'Khulna', 'automobile' ),
+	'KIS'  => __( 'Kishoreganj', 'automobile' ),
+	'KUR'  => __( 'Kurigram', 'automobile' ),
+	'KUS'  => __( 'Kushtia', 'automobile' ),
+	'LAK'  => __( 'Lakshmipur', 'automobile' ),
+	'LAL'  => __( 'Lalmonirhat', 'automobile' ),
+	'MAD'  => __( 'Madaripur', 'automobile' ),
+	'MAG'  => __( 'Magura', 'automobile' ),
+	'MAN'  => __( 'Manikganj ', 'automobile' ),
+	'MEH'  => __( 'Meherpur', 'automobile' ),
+	'MOU'  => __( 'Moulvibazar', 'automobile' ),
+	'MUN'  => __( 'Munshiganj', 'automobile' ),
+	'MYM'  => __( 'Mymensingh', 'automobile' ),
+	'NAO'  => __( 'Naogaon', 'automobile' ),
+	'NAR'  => __( 'Narail', 'automobile' ),
+	'NARG' => __( 'Narayanganj', 'automobile' ),
+	'NARD' => __( 'Narsingdi', 'automobile' ),
+	'NAT'  => __( 'Natore', 'automobile' ),
+	'NAW'  => __( 'Nawabganj', 'automobile' ),
+	'NET'  => __( 'Netrakona', 'automobile' ),
+	'NIL'  => __( 'Nilphamari', 'automobile' ),
+	'NOA'  => __( 'Noakhali', 'automobile' ),
+	'PAB'  => __( 'Pabna', 'automobile' ),
+	'PAN'  => __( 'Panchagarh', 'automobile' ),
+	'PAT'  => __( 'Patuakhali', 'automobile' ),
+	'PIR'  => __( 'Pirojpur', 'automobile' ),
+	'RAJB' => __( 'Rajbari', 'automobile' ),
+	'RAJ'  => __( 'Rajshahi', 'automobile' ),
+	'RAN'  => __( 'Rangamati', 'automobile' ),
+	'RANP' => __( 'Rangpur', 'automobile' ),
+	'SAT'  => __( 'Satkhira', 'automobile' ),
+	'SHA'  => __( 'Shariatpur', 'automobile' ),
+	'SHE'  => __( 'Sherpur', 'automobile' ),
+	'SIR'  => __( 'Sirajganj', 'automobile' ),
+	'SUN'  => __( 'Sunamganj', 'automobile' ),
+	'SYL'  => __( 'Sylhet', 'automobile' ),
+	'TAN'  => __( 'Tangail', 'automobile' ),
+	'THA'  => __( 'Thakurgaon', 'automobile' )
+);
