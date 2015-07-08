@@ -48,7 +48,7 @@ add_filter( 'manage_automobile_product_category_custom_column', 'automobile_prod
 			}
 
 			$image = str_replace( ' ', '%20', $image );
-			$columns .= '<img src="' . esc_url( $image ) . '" alt="'. __( 'Thumbnail', 'automobile' ) . '" class="wp-post-image" height="48" width="48" />';
+			$columns .= '<img src="' . esc_url( $image ) . '" alt="'. __( 'Thumbnail', 'automobile' ) . '" class="wp-post-image" height="48" width="48" data-test="'. $thumbnail_id .'" />';
 
 		}
 

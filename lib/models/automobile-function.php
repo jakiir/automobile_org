@@ -868,7 +868,7 @@ add_filter( 'parse_query','automobile_perform_filtering' );
 function automobile_perform_filtering( $query ) {
     $qv = &$query->query_vars;
     global $pagenow;
-    if ( ( $qv['automobile_product_category'] ) && is_numeric( $qv['automobile_product_category'] ) ) {
+    if ( @$qv['automobile_product_category']  && is_numeric( $qv['automobile_product_category'] ) ) {
         $term = get_term_by( 'id', $qv['automobile_product_category'], 'automobile_product_category' );
         $qv['automobile_product_category'] = $term->slug;
     }
